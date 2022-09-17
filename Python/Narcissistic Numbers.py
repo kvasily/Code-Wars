@@ -14,6 +14,7 @@ Your code must return true or false (not 'true' and 'false') depending upon whet
 
 Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
 '''
+# Code below checks to make sure input is a positive integer
 while True:
     try:
         narcissisticNumber = int(input("What is your number? "))
