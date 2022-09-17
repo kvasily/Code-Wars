@@ -26,10 +26,6 @@ while True:
     
 
 
-# while narcissisticNumber < 0:
-#     print('Number must be greater than 0!')
-#     narcissisticNumber = input("What is your number? ")
-
-# def narcissistic( narcissus = narcissisticNumber ):
-#     # length = narcissus
-#     pass
+def narcissistic( narcissus = narcissisticNumber ):
+    length = len(str(narcissus))
+narcissistic()
