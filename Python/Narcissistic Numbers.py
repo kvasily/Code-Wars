@@ -14,6 +14,22 @@ Your code must return true or false (not 'true' and 'false') depending upon whet
 
 Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
 '''
+while True:
+    try:
+        narcissisticNumber = int(input("What is your number? "))
+        while narcissisticNumber < 0:
+            print('must be a positive number!')
+            narcissisticNumber = int(input("What is your number? "))
+        break
+    except Exception:
+        print('Must be a number')
+    
 
-def narcissistic( narcissus ):
-    # Code away
+
+# while narcissisticNumber < 0:
+#     print('Number must be greater than 0!')
+#     narcissisticNumber = input("What is your number? ")
+
+# def narcissistic( narcissus = narcissisticNumber ):
+#     # length = narcissus
+#     pass
